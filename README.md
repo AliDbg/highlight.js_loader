@@ -3,7 +3,7 @@
 <h2>Usage:</h2>
 ```html
 <head>
-<link rel="stylesheet" href="http://cdn.jsdelivr.net/highlight.js/8.4.0/styles/monokai_sublime.min.css">
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/highlight.js/latest/styles/monokai_sublime.min.css">
 <script src="http://cdn.jsdelivr.net/g/jquery,highlight.js"></script>
 <script src="highlightjs_loader.js"></script>
 </head>
