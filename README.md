@@ -11,7 +11,7 @@
 <ol>
 <li>Auto highlight &lt;code&gt;&lt;/code&gt;</li>
 <li>Add line numbers</li>
-<li>Escape tags inside code tag</li>
+<li>Escape &lt; &quot; &gt; inside code tag</li>
 <li>Improve Code Style</li>
 <li>Add jQuery.niceScroll</li>
 <li>Selection code onclick</li>
