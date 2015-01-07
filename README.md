@@ -8,7 +8,6 @@
 ```
 
 <h2>Features:</h2>
-```
 <ol>
 <li>Auto highlight &lt;code&gt;&lt;/code&gt;</li>
 <li>Add line numbers</li>
@@ -17,4 +16,3 @@
 <li>Add jQuery.niceScroll</li>
 <li>Selection code onclick</li>
 </ol>
-```
