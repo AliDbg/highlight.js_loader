@@ -1,6 +1,6 @@
 # highlight.js loader
 
-<h1>Usage:</h1>
+<h2>Usage:</h2>
 ```html
 <link rel="stylesheet" href="monokai_sublime.csss">
 <script src="highlight.pack.js"></script>
