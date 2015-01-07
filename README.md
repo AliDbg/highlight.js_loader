@@ -1,6 +1,4 @@
-# highlight.js_loader
-highlight.js loader
-
+# highlight.js loader
 
 <h1>Usage:</h1>
 ```html
