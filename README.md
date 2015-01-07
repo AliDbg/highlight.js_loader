@@ -4,7 +4,7 @@
 ```html
 <head>
 <link rel="stylesheet" href="styles/monokai_sublime.css">
-<script src="highlight.pack.js"></script>
+<script src="http://cdn.jsdelivr.net/g/jquery,jquery.nicescroll,highlight.js"></script>
 <script src="highlightjs_loader.js"></script>
 </head>
 
