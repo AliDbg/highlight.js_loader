@@ -2,7 +2,7 @@
 
 <h2>Usage:</h2>
 ```html
-<link rel="stylesheet" href="styles/monokai_sublime.csss">
+<link rel="stylesheet" href="styles/monokai_sublime.css">
 <script src="highlight.pack.js"></script>
 <script src="highlightjs_loader.js"></script>
 ```
