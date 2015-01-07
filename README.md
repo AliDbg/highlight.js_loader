@@ -3,9 +3,12 @@
 <h2>Usage:</h2>
 ```html
 <head>
+<!-- <script src="http://cdn.jsdelivr.net/g/jquery,jquery.nicescroll"></script> -->
+
 <link rel="stylesheet" href="http://cdn.jsdelivr.net/highlight.js/latest/styles/monokai_sublime.min.css">
-<script src="http://cdn.jsdelivr.net/g/jquery,highlight.js"></script>
-<script src="highlightjs_loader.js"></script>
+<script src="http://cdn.jsdelivr.net/g/highlight.js"></script>
+<script src="highlightjs_loader.min.js"></script>
+
 </head>
 
 <body>
