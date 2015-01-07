@@ -5,7 +5,7 @@
 <head>
 <!-- <script src="http://cdn.jsdelivr.net/g/jquery,jquery.nicescroll"></script> -->
 
-<link rel="stylesheet" href="http://cdn.jsdelivr.net/g/highlight.js(styles/monokai_sublime.min.css)">
+<link href="http://cdn.jsdelivr.net/g/highlight.js(styles/monokai_sublime.min.css)"  rel="stylesheet">
 <script src="http://cdn.jsdelivr.net/g/highlight.js"></script>
 <script src="highlightjs_loader.min.js"></script>
 
