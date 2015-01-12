@@ -1,19 +1,13 @@
-# Highlight JS Loader
+# Highlight JS Loader v2.0
 
 <h2>Usage:</h2>
 ```html
-<head>
-<!-- <script src="http://cdn.jsdelivr.net/g/jquery,jquery.nicescroll"></script> -->
-
 <link href="http://cdn.jsdelivr.net/g/highlight.js(styles/monokai_sublime.min.css)" rel="stylesheet">
+<!-- <script src="http://cdn.jsdelivr.net/g/jquery,jquery.nicescroll"></script> -->
 <script src="http://cdn.jsdelivr.net/g/highlight.js"></script>
 <script src="highlightjs_loader.min.js"></script>
 
-</head>
-
-<body>
-<code>you code</code>
-</body>
+<code>your code</code>
 ```
 
 <h2>Features:</h2>
