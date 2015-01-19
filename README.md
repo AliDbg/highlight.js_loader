@@ -1,4 +1,4 @@
-# Highlight JS Loader v2.0
+# Highlight JS Loader
 
 <h2>Usage:</h2>
 ```html
