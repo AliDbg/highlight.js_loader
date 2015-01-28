@@ -1,15 +1,17 @@
-/*! Highlight JS Loader v4.1 | MIT Licensed (C) 2015 Ali.Dbg | http://goo.gl/IRlJuI */
-;(function(doc, notdefined, replace, innerHTML, appendChild, addEventListener, getElementsByTagName) {
+/*! Highlight JS Loader v5.0 | MIT Licensed (C) 2015 Ali.Dbg | http://goo.gl/IRlJuI */
+;(function(doc, replace, innerHTML, addEventListener, getElementsByTagName) {
     "use strict";
-    var css = ".hljs,.hljs span{font-family:Consolas,Monaco,monospace;line-height:1.45;word-wrap:normal;position:relative;float:none;direction:ltr}.hljs{border-radius:.4em;max-height:40em;margin:.5em auto;white-space:pre;overflow:auto}.hljs .hjln{cursor:default;text-align:right;float:left;margin:0 1em .1em -1em;border-right:.1em solid;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none}.hljs .hjln span{padding:0 .5em 0 1em;display:block}",
-        style = doc.createElement("style");
-    style[appendChild](doc.createTextNode(css));
-    doc.head[appendChild](style);
+    doc.head.appendChild(doc.createElement("style"))[innerHTML] = 
+        ".hljs,.hljs span{font-family:Consolas,Menlo,Liberation Mono;word-wrap:normal;position:relative;float:none;direction:ltr}"+
+        ".hljs{border-radius:.2em;max-height:40em;margin:.5em auto;white-space:pre;overflow:auto}"+
+        ".hljs .hjln{text-align:right;float:left;margin:0 1em 0 -1em;border-right:.1em solid;"+
+        "cursor:default;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none}"+
+        ".hljs .hjln span{padding:0 .5em 0 1em;display:block}";
     doc[addEventListener]("DOMContentLoaded", function() {
         var code = doc[getElementsByTagName]("code");
         for (var i = 0; i < code.length; i++) {
             var cod = code[i];
-            if (typeof hljs != notdefined && cod.className.indexOf("hljs") == -1 && cod.className.indexOf("nohighlight") == -1) {
+            if ("object" == typeof hljs && cod.className.indexOf("hljs") == -1 && cod.className.indexOf("nohighlight") == -1) {
                 cod[addEventListener]("click", function() {
                     if (confirm("Select All?")) {
                         var r = doc.createRange(),
@@ -27,6 +29,6 @@
                 for (var a = 1; a <= g; a++)(cod[getElementsByTagName]("span")[0])[innerHTML] += "<span>" + a + "</span>"
             }
         }
-        if (typeof jQuery != notdefined && jQuery.fn.niceScroll) jQuery("code").niceScroll()
+        if (typeof jQuery != "undefined" && jQuery.fn.niceScroll) jQuery("code").niceScroll()
     })
-})(document, "undefined", "replace", "innerHTML", "appendChild", "addEventListener", "getElementsByTagName");
+})(document, "replace", "innerHTML", "addEventListener", "getElementsByTagName");
