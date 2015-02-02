@@ -23,11 +23,11 @@ With jQuery.niceScroll
 </ol>
 
 <h2>Links:</h2>
-[Highlight.js Home](https://highlightjs.org/download/)<br>
+[Highlight.js Home](https://highlightjs.org/)<br>
 [Customize Download](https://highlightjs.org/download/)<br>
 [Styles Live Demo](https://highlightjs.org/static/demo/)<br>
 [Hljs Git Repository](https://github.com/isagalaev/highlight.js)<br>
 [Hljs Documentation](http://highlightjs.readthedocs.org/)<br>
 [Hljs Discussion](https://groups.google.com/forum/#!forum/highlightjs)<br>
 [Escape HTML Entities](http://www.htmlescape.net/htmlescape_tool.html)<br>
-[jsDelivr CDN Service](http://www.jsdelivr.com/)<br>
+[jsDelivr CDN Service](http://www.jsdelivr.com/)
