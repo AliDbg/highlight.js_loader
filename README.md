@@ -2,19 +2,32 @@
 
 <h2>Usage:</h2>
 ```html
-<link rel="stylesheet" href="http://cdn.jsdelivr.net/g/highlight.js(styles/monokai_sublime.min.css)" >
-<script src="http://cdn.jsdelivr.net/g/jquery,jquery.nicescroll,highlight.js"></script>
-<script src="highlightjs.loader.js"></script>
+<script src="http://cdn.jsdelivr.net/g/highlight.js,highlightjs.loader(highlightjs.loader.min.js+src/JStyles/railscasts.js)"></script>
 
-<code>your code</code>
+<code>Your source for highlighting</code>
 ```
 
+With jQuery.niceScroll
+```html
+<script src="http://cdn.jsdelivr.net/g/jquery,highlight.js,highlightjs.loader(src/nicescroll.js+highlightjs.loader.min.js+src/JStyles/railscasts.js)"></script>
+
+<code>Your source for highlighting</code>
+```
 <h2>Features:</h2>
 <ol>
-<li>Auto highlight &lt;code&gt;&lt;/code&gt;</li>
+<li>Auto detection and highlighting</li>
 <li>Add line numbers</li>
-<li>Escape &lt;&quot;&gt; inside code tag</li>
-<li>Improve Code Style</li>
-<li>Add jQuery.niceScroll</li>
-<li>Select code onclick</li>
+<li>Encode tags</li>
+<li>Fix Style</li>
+<li>niceScroll</li>
 </ol>
+
+<h2>Links:</h2>
+[Highlight.js Home](https://highlightjs.org/download/)<br>
+[Customize Download](https://highlightjs.org/download/)<br>
+[Styles Live Demo](https://highlightjs.org/static/demo/)<br>
+[Hljs Git Repository](https://github.com/isagalaev/highlight.js)<br>
+[Hljs Documentation](http://highlightjs.readthedocs.org/)<br>
+[Hljs Discussion](https://groups.google.com/forum/#!forum/highlightjs)<br>
+[Escape HTML Entities](http://www.htmlescape.net/htmlescape_tool.html)<br>
+[jsDelivr CDN Service](http://www.jsdelivr.com/)<br>
