@@ -2,14 +2,14 @@
 
 <h2>Usage:</h2>
 ```html
-<script src="http://cdn.jsdelivr.net/g/highlight.js@8,highlightjs.loader@5.0(highlightjs.loader.min.js+src/JStyles/railscasts.js)"></script>
+<script src="http://cdn.jsdelivr.net/g/highlight.js,highlightjs.loader@5.0(highlightjs.loader.min.js+src/JStyles/railscasts.js)"></script>
 
 <code>Your source for highlighting</code>
 ```
 
 With jQuery.niceScroll
 ```html
-<script src="http://cdn.jsdelivr.net/g/jquery@1,highlight.js,highlightjs.loader@5.0(src/nicescroll.js+highlightjs.loader.min.js+src/JStyles/railscasts.js)"></script>
+<script src="http://cdn.jsdelivr.net/g/jquery,highlight.js,highlightjs.loader@5.0(src/nicescroll.js+highlightjs.loader.min.js+src/JStyles/railscasts.js)"></script>
 
 <code>Your source for highlighting</code>
 ```
