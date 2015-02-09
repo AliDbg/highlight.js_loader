@@ -1,11 +1,10 @@
-/*! Highlight JS Loader v5.0 | MIT Licensed (C) 2015 Ali.Dbg | http://goo.gl/IRlJuI */
+/*! Highlight JS Loader v5.2 | MIT Licensed (C) 2015 Ali.Dbg | http://goo.gl/IRlJuI */
 ;(function(doc, replace, innerHTML, addEventListener, getElementsByTagName) {
     "use strict";
     doc.head.appendChild(doc.createElement("style"))[innerHTML] = 
-        ".hljs,.hljs span{font-family:Consolas,Menlo,Liberation Mono;word-wrap:normal;position:relative;float:none;direction:ltr}"+
-        ".hljs{border-radius:.2em;max-height:40em;margin:.5em auto;white-space:pre;overflow:auto}"+
-        ".hljs .hjln{text-align:right;float:left;margin:0 1em 0 -1em;border-right:.1em solid;"+
-        "cursor:default;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none}"+
+        ".hljs,.hljs span{vertical-align:baseline;font-family:Consolas,Menlo,Liberation Mono;line-height:1.3;word-wrap:normal;position:relative;float:none;direction:ltr}"+
+        ".hljs {border-radius:.2em;max-height:40em;margin:.5em auto;white-space:pre;overflow:auto}"+
+        ".hljs .hjln{text-align:right;float:left;margin:0 1em 0 -1em;border-right:.1em solid;cursor:default;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none}"+
         ".hljs .hjln span{padding:0 .5em 0 1em;display:block}";
     doc[addEventListener]("DOMContentLoaded", function() {
         var code = doc[getElementsByTagName]("code");
@@ -25,10 +24,9 @@
                 cod[innerHTML] = cod[innerHTML][replace](/<br[^>]*>$/mgi, "")[replace](/</g, "&lt;")[replace](/>/g, "&gt;")[replace](/"/g, "&quot;");
                 hljs.highlightBlock(cod);
                 cod[innerHTML] = '<span class="hjln"></span>' + cod[innerHTML];
-                var g = cod[innerHTML].split(/\n/).length;
-                for (var a = 1; a <= g; a++)(cod[getElementsByTagName]("span")[0])[innerHTML] += "<span>" + a + "</span>"
+                for (var a = 1; a <= cod[innerHTML].split(/\n/).length; a++)(cod[getElementsByTagName]("span")[0])[innerHTML] += "<span>"+a+"</span>";
             }
         }
-        if (typeof jQuery != "undefined" && jQuery.fn.niceScroll) jQuery("code").niceScroll()
+        if (typeof jQuery != "undefined" && jQuery.fn.niceScroll) jQuery(".hljs").niceScroll()
     })
 })(document, "replace", "innerHTML", "addEventListener", "getElementsByTagName");
