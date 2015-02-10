@@ -1,7 +1,7 @@
 {
   "name": "Highlight JS Loader",
   "filename": "highlightjs.loader.min.js",
-  "version": "5.0",
+  "version": "5.2",
   "description": "Highlight.js loader, auto code highlighter, add line numbers, encode tags, niceScroll, fix css, hljs",
   "author": "Ali.Debugger",
   "homepage": "https://highlightjs.org",
