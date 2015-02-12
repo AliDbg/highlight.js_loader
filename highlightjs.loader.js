@@ -1,8 +1,8 @@
-/*! Highlight JS Loader v5.2 | MIT Licensed (C) 2015 Ali.Dbg | http://goo.gl/IRlJuI */
+/*! Highlight JS Loader v5.3 | MIT Licensed (C) 2015 Ali.Dbg | http://goo.gl/IRlJuI */
 ;(function(doc, replace, innerHTML, addEventListener, getElementsByTagName) {
     "use strict";
     doc.head.appendChild(doc.createElement("style"))[innerHTML] = 
-        ".hljs,.hljs span{vertical-align:baseline;font-family:Consolas,Menlo,Liberation Mono;line-height:1.3;word-wrap:normal;position:relative;float:none;direction:ltr}"+
+        ".hljs,.hljs span{vertical-align:top;top:0;left:0;border:0 none;line-height:1.3;word-wrap:normal;position:relative;float:none;direction:ltr;font-family:Consolas,Menlo,Liberation Mono}"+
         ".hljs {border-radius:.2em;max-height:40em;margin:.5em auto;white-space:pre;overflow:auto}"+
         ".hljs .hjln{text-align:right;float:left;margin:0 1em 0 -1em;border-right:.1em solid;cursor:default;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none}"+
         ".hljs .hjln span{padding:0 .5em 0 1em;display:block}";
