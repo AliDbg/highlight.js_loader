@@ -1,4 +1,4 @@
-/*! Highlight JS Loader v6.0 | MIT Licensed (C) 2015 Ali.Dbg | http://goo.gl/IRlJuI */
+/*! Highlight JS Loader v6.1 | MIT Licensed (C) 2015 Ali.Dbg | http://goo.gl/IRlJuI */
 ;(function(doc, replace, innerHTML) {
     "use strict";
     doc.head.appendChild(doc.createElement("style"))[innerHTML] = 
@@ -11,7 +11,7 @@
         var code = doc.getElementsByTagName("code");
         for (var i = 0; i < code.length; i++) {
             var cod = code[i];
-            if ("object" == typeof hljs && cod.className.indexOf("hljs") == -1 && cod.className.indexOf("nohighlight") == -1) {
+            if (cod.className.search(/(hljs|nohighlight)/) == -1) {
                 cod.addEventListener("click", function() {
                     if (confirm("Select All?")) {
                         var r = doc.createRange(),
