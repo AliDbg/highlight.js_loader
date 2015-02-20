@@ -1,11 +1,10 @@
-/*! Highlight JS Loader v6.1 | MIT Licensed (C) 2015 Ali.Dbg | http://goo.gl/IRlJuI */
+/*! Highlight JS Loader v6.2 | MIT Licensed (C) 2015 Ali.Dbg | http://goo.gl/IRlJuI */
 ;(function(doc, replace, innerHTML) {
     "use strict";
     doc.head.appendChild(doc.createElement("style"))[innerHTML] = 
-        ".hljs,.hljs *{line-height:1.45;font-family:Consolas,Menlo,Liberation Mono}"+
-        ".hljs{border-radius:.2em;max-height:40em;margin:.5em auto;white-space:pre}"+
-        ".hljs *{vertical-align:top;top:0;left:0;margin:0;padding:0;border:0 none;outline:none;float:none;display:inline;position:relative;word-wrap:normal;direction:ltr}"+
-        ".hjln{counter-reset:l;text-align:right;float:left;margin:0 1em 0 -1em;border-right:.1em solid;cursor:default;-webkit-user-select:none;-moz-user-select:none}"+
+        ".hljs,.hljs *{border:0 none;direction:ltr;float:none;font-family:Consolas,Menlo,Liberation Mono;left:0;line-height:1.45;margin:0;outline:none;position:relative;top:0;vertical-align:top;word-wrap:normal}"+
+        ".hljs{border-radius:.2em;margin:.5em auto;max-height:40em;white-space:pre}.hljs *{padding:0;display:inline}"+
+        ".hjln{border-right:.1em solid;counter-reset:l;cursor:default;float:left;margin:0 1em 0 -1em;text-align:right;-moz-user-select:none;-webkit-user-select:none}"+
         ".hjln span{counter-increment:l;display:block;padding:0 .5em 0 1em}.hjln span:before{content:counter(l)}";
     doc.addEventListener("DOMContentLoaded", function() {
         var code = doc.getElementsByTagName("code");
