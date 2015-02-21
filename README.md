@@ -13,8 +13,10 @@ With jQuery.niceScroll
 
 <code>Your source for highlighting</code>
 ```
-<h2>Demo:<h2>
+
+<h2>Demo:</h2>
 [Highlight.js Loader Demo](http://codepen.io/alidbg/pen/EaQLeO)<br>
+
 <h2>Features:</h2>
 <ol>
 <li>Auto detection and highlighting</li>
