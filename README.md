@@ -2,17 +2,19 @@
 
 <h2>Usage:</h2>
 ```html
-<script src="http://cdn.jsdelivr.net/g/highlight.js,highlightjs.loader@5.0(highlightjs.loader.min.js+src/JStyles/railscasts.js)"></script>
+<script src="http://cdn.jsdelivr.net/g/highlight.js,highlightjs.loader@6.2(src/JStyles/monokai_sublime.js+highlightjs.loader.min.js)"></script>
 
 <code>Your source for highlighting</code>
 ```
 
 With jQuery.niceScroll
 ```html
-<script src="http://cdn.jsdelivr.net/g/jquery,highlight.js,highlightjs.loader@5.0(src/nicescroll.js+highlightjs.loader.min.js+src/JStyles/railscasts.js)"></script>
+<script src="http://cdn.jsdelivr.net/g/jquery,highlight.js,highlightjs.loader@6.2(src/nicescroll.js+src/JStyles/monokai_sublime.js+highlightjs.loader.min.js)"></script>
 
 <code>Your source for highlighting</code>
 ```
+<h2>Demo:<h2>
+[Highlight.js Loader Demo](http://codepen.io/alidbg/pen/EaQLeO)<br>
 <h2>Features:</h2>
 <ol>
 <li>Auto detection and highlighting</li>
