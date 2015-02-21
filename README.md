@@ -1,6 +1,11 @@
 # Highlight JS Loader
-
 <h2>Usage:</h2>
+```html
+<link rel="stylesheet" href="/src/monokai_sublime.css">
+<script src="/src/highlight.js"></script>
+<script src="highlightjs.loader.js"></script>
+```
+<h2>CDN:</h2>
 ```html
 <script src="http://cdn.jsdelivr.net/g/highlight.js,highlightjs.loader@6(src/JStyles/monokai_sublime.js+highlightjs.loader.min.js)"></script>
 
@@ -14,7 +19,7 @@ With jQuery.niceScroll
 <code>Your source for highlighting</code>
 ```
 
-<h2>Demo:</h2>
+<h2>Live Demo:</h2>
 [Highlight.js Loader Demo](http://codepen.io/alidbg/pen/EaQLeO)<br>
 
 <h2>Features:</h2>
