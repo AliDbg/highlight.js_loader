@@ -9,14 +9,14 @@
 ```html
 <script src="http://cdn.jsdelivr.net/g/highlight.js,highlightjs.loader@6(src/JStyles/monokai_sublime.js+highlightjs.loader.min.js)"></script>
 
-<code>Your source for highlighting</code>
+<pre><code>Your source for highlighting</code></pre>
 ```
 
 With jQuery.niceScroll
 ```html
 <script src="http://cdn.jsdelivr.net/g/jquery,highlight.js,highlightjs.loader@6(src/nicescroll.js+src/JStyles/monokai_sublime.js+highlightjs.loader.min.js)"></script>
 
-<code>Your source for highlighting</code>
+<pre><code>Your source for highlighting</code></pre>
 ```
 
 <h2>Live Demo:</h2>
