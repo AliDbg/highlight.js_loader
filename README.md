@@ -16,7 +16,7 @@
 
 With jQuery.niceScroll
 ```html
-<script src="http://cdn.jsdelivr.net/g/jquery,highlight.js,highlightjs.loader@6(src/nicescroll.js+src/JStyles/monokai_sublime.js+highlightjs.loader.min.js)"></script>
+<script src="http://cdn.jsdelivr.net/g/jquery,jquery.nicescroll,highlight.js,highlightjs.loader@6(src/JStyles/monokai_sublime.js+highlightjs.loader.min.js)"></script>
 
 <pre>
 <code>Your source for highlighting</code>
